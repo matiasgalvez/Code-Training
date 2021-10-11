@@ -2,11 +2,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My first website!</title>
+  <title>CSS</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    li {
+      color: white;
+    }
+  </style>
 </head>
 <body>
-  <button class="btn btn-primary">Default</button>
-  <header>
+  <header style="background-color: green;">
     <nav>
       <ul>
         <li>Home</li>
@@ -17,12 +22,37 @@
   </header>
   <section>
     <h2>Home</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    <div id = "div1">
+      <p class ="webtext active">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+      <p class ="webtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+      <p class ="webtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+  </div>
+  <div id = "div2">
+    <p class ="webtext active">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    consequat.</p>
+    <p class ="webtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat.</p>
+    <p class ="webtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat.</p>
+</div>
   </section>
 </body>
 </html>
+
+<!--Three ways of adding css: a .css file, inline like line 15, 
+or style tag like lines 7 to 10-->
